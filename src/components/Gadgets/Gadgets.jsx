@@ -35,7 +35,6 @@ const Gadgets = () => {
       status: "All",
     });
   };
-  console.log(statusBtn);
 
   return (
     <div className="mt-96 max-w-10/12 mx-auto">

@@ -7,6 +7,7 @@ import { RouterProvider } from "react-router/dom";
 import Router from "./components/Router/Router.jsx";
 import Statistics from "./components/Statistics/Statistics.jsx";
 import Header from "./components/Header/Header.jsx";
+import ProductDetails from "./components/ProductDetails/ProductDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+      },
+      {
+        path: "/ProductDetails/:ProductId",
+        element: <ProductDetails />,
+        loader: () => fetch("gadgets.JSON"),
       },
     ],
   },

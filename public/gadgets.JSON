@@ -1,0 +1,382 @@
+[
+  {
+    "product_id": "P001",
+    "product_title": "Sony WH-1000XM5 Headphones",
+    "product_image": "https://storage.googleapis.com/bionic_1626848719/products/f2a462c9c83fadc0c80ed870a9fda6fe98775c37/banners/10302509_1685638066.jpg",
+    "category": "Electronics",
+    "price": 349.99,
+    "description": "Industry-leading noise cancelling wireless headphones with 30-hour battery life and crystal clear hands-free calling.",
+    "specification": [
+      "Driver: 30mm",
+      "Frequency: 4Hz–40,000Hz",
+      "Battery: 30 hours",
+      "Connectivity: Bluetooth 5.2",
+      "Weight: 250g"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Sony",
+    "reviews_count": 2341
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Apple MacBook Air M2",
+    "product_image": "https://istorm.com.cy/cdn/shop/files/IMG-5560689_b56f5a1a-7e56-4e76-926b-712785896b0c.jpg?v=1739301804&width=823",
+    "category": "Laptops",
+    "price": 1099.0,
+    "description": "Supercharged by M2 chip. Up to 18 hours battery, fanless design, Liquid Retina display.",
+    "specification": [
+      "Chip: Apple M2",
+      "RAM: 8GB unified memory",
+      "Storage: 256GB SSD",
+      "Display: 13.6-inch Liquid Retina",
+      "Battery: 18 hours"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Apple",
+    "reviews_count": 5812
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Nike Air Max 270",
+    "product_image": "https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Sites-akeneo-master-catalog/default/dw164fd77e/nk/a58/d/e/9/1/a/a58de91a_edd3_4ea5_b39b_0bd49290a1e8.jpg?sw=700&sh=700&sm=fit&q=100&strip=false",
+    "category": "Footwear",
+    "price": 149.99,
+    "description": "Max Air cushioning in the heel for all-day comfort. Lightweight mesh upper for breathability.",
+    "specification": [
+      "Upper: Engineered mesh",
+      "Sole: Rubber",
+      "Cushioning: Max Air 270",
+      "Closure: Lace-up",
+      "Available sizes: 6–15 US"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Nike",
+    "reviews_count": 3104
+  },
+  {
+    "product_id": "P004",
+    "product_title": "IKEA KALLAX Shelf Unit",
+    "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRx1EFR_6SzpybcV7xEr_gJH502XboOHB4Q&s",
+    "category": "Furniture",
+    "price": 79.99,
+    "description": "Versatile shelf unit that can be placed vertically or horizontally. Works as room divider or bookcase.",
+    "specification": [
+      "Material: Particleboard",
+      "Dimensions: 77x147 cm",
+      "Max load per shelf: 13kg",
+      "Color options: White, Black, Oak",
+      "Assembly required: Yes"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "brand": "IKEA",
+    "reviews_count": 1987
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Kindle Paperwhite 11th Gen",
+    "product_image": "https://www.singular.com.cy/images/detailed/345/Amazon_Kindle_Paperwhite_-_11th_generation-min.jpg",
+    "category": "Electronics",
+    "price": 139.99,
+    "description": "300 ppi glare-free display, adjustable warm light, waterproof (IPX8), and 10 weeks of battery life.",
+    "specification": [
+      "Display: 6.8-inch, 300 ppi",
+      "Storage: 8GB or 32GB",
+      "Battery: Up to 10 weeks",
+      "Waterproof: IPX8",
+      "Connectivity: Wi-Fi + optional 4G"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Amazon",
+    "reviews_count": 9203
+  },
+  {
+    "product_id": "P006",
+    "product_title": "Instant Pot Duo 7-in-1",
+    "product_image": "https://i5.walmartimages.com/seo/Pot-Duo-7-in-1-Mini-Electric-Pressure-Cooker-Slow-Rice-Cooker-Steamer-Saut-Yogurt-Maker-Warmer-Sterilizer-Includes-Free-App-1900-Recipes-Stainless-St_1459dffc-6149-4556-a04e-f472877544e8.42a7e451bb5b2301f11d574ce42b2e43.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "category": "Kitchen",
+    "price": 89.99,
+    "description": "Pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and warmer in one.",
+    "specification": [
+      "Capacity: 6 quart",
+      "Functions: 7-in-1",
+      "Power: 1000W",
+      "Material: Stainless steel",
+      "Certifications: UL, ULC"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Instant Pot",
+    "reviews_count": 14520
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Levi's 501 Original Jeans",
+    "product_image": "https://i8.amplience.net/i/jpl/jd_750427_a?qlt=92&w=600&h=765&v=1&fmt=auto",
+    "category": "Clothing",
+    "price": 69.5,
+    "description": "The original straight fit jean since 1873. Button fly, straight leg, sits at waist.",
+    "specification": [
+      "Fabric: 100% Cotton denim",
+      "Fit: Original straight",
+      "Rise: High",
+      "Closure: Button fly",
+      "Care: Machine wash cold"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Levi's",
+    "reviews_count": 6710
+  },
+  {
+    "product_id": "P008",
+    "product_title": "Canon EOS R50 Camera",
+    "product_image": "https://www.stephanis.com.cy/media/products/DIC_B5EB9C015E232.jpg?dimensions=1000x1000",
+    "category": "Photography",
+    "price": 679.99,
+    "description": "24.2MP APS-C mirrorless camera. Dual Pixel autofocus, 4K video, compact and beginner-friendly.",
+    "specification": [
+      "Sensor: 24.2MP APS-C CMOS",
+      "Autofocus: Dual Pixel CMOS AF II",
+      "Video: 4K UHD",
+      "Mount: Canon RF-S",
+      "Weight: 375g"
+    ],
+    "availability": false,
+    "rating": 4.6,
+    "brand": "Canon",
+    "reviews_count": 892
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Dyson V15 Detect Vacuum",
+    "product_image": "https://www.rakispilacourisltd.com/images/stories/virtuemart/product/226239-l61.jpg",
+    "category": "Home Appliances",
+    "price": 749.99,
+    "description": "Laser reveals hidden dust. Auto-adjusts suction based on dust quantity. HEPA filtration.",
+    "specification": [
+      "Suction: 240 AW",
+      "Battery: 60 minutes",
+      "Filter: HEPA",
+      "Bin volume: 0.77L",
+      "Weight: 3.1kg"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Dyson",
+    "reviews_count": 3211
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Moleskine Classic Notebook",
+    "product_image": "https://penstore.com/bilder/artiklar/liten/100352_r_S.jpg",
+    "category": "Stationery",
+    "price": 24.99,
+    "description": "Hard cover, elastic closure, ribbon bookmark. Acid-free paper, 240 pages, pocket folder inside back cover.",
+    "specification": [
+      "Pages: 240",
+      "Paper: 70 g/sqm acid-free",
+      "Size: Large (13x21 cm)",
+      "Cover: Hard",
+      "Ruling: Ruled / Plain / Dotted"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Moleskine",
+    "reviews_count": 4422
+  },
+  {
+    "product_id": "P011",
+    "product_title": "Logitech MX Master 3S Mouse",
+    "product_image": "https://storage.googleapis.com/bionic_1626848719/products/1945217990966340ceb6070f13d8743ff835441c/banners/13500892_1705477309.jpg",
+    "category": "Computer Peripherals",
+    "price": 99.99,
+    "description": "8K DPI sensor, near-silent clicks, MagSpeed electromagnetic scroll wheel, works on glass surfaces.",
+    "specification": [
+      "DPI: 200–8000",
+      "Connectivity: Bluetooth + USB",
+      "Battery: 70 days",
+      "Buttons: 7 programmable",
+      "Compatibility: Windows, macOS, Linux"
+    ],
+    "availability": true,
+    "rating": 4.9,
+    "brand": "Logitech",
+    "reviews_count": 7834
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Fjällräven Kånken Backpack",
+    "product_image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "category": "Bags",
+    "price": 109.95,
+    "description": "Iconic Swedish backpack. Vinylon F fabric, sit-pad in back pocket, adjustable shoulder straps.",
+    "specification": [
+      "Volume: 16L",
+      "Material: Vinylon F",
+      "Dimensions: 38x27x13 cm",
+      "Weight: 300g",
+      "Laptop sleeve: No (Classic)"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Fjällräven",
+    "reviews_count": 2901
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Samsung 27\" 4K Monitor",
+    "product_image": "https://storage.googleapis.com/bionic_1626848719/products/82f5d33d5ee5b8a7c53a5b03eeec79dab2086d3d/banners/13301189_1728642490.jpg",
+    "category": "Monitors",
+    "price": 379.99,
+    "description": "27-inch 4K UHD IPS panel, 99% sRGB, USB-C 90W charging, HDR10, slim bezel.",
+    "specification": [
+      "Panel: 27-inch IPS",
+      "Resolution: 3840x2160 (4K)",
+      "Refresh rate: 60Hz",
+      "Ports: USB-C, HDMI, DisplayPort",
+      "HDR: HDR10"
+    ],
+    "availability": true,
+    "rating": 4.6,
+    "brand": "Samsung",
+    "reviews_count": 1543
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Hydro Flask 32oz Water Bottle",
+    "product_image": "https://www.islandsurfco.ca/cdn/shop/products/32oz-wide-mouth-laguna.png?v=1704857873&width=800",
+    "category": "Sports & Outdoors",
+    "price": 44.95,
+    "description": "TempShield double-wall vacuum insulation. Keeps drinks cold 24 hrs, hot 12 hrs. BPA-free.",
+    "specification": [
+      "Capacity: 32 oz (946ml)",
+      "Material: 18/8 stainless steel",
+      "Insulation: TempShield",
+      "Cold: 24 hours",
+      "Hot: 12 hours"
+    ],
+    "availability": true,
+    "rating": 4.8,
+    "brand": "Hydro Flask",
+    "reviews_count": 11204
+  },
+  {
+    "product_id": "P015",
+    "product_title": "The Ordinary Niacinamide 10%",
+    "product_image": "https://trendscyprus.com/wp-content/uploads/2025/09/769915195941.jpg",
+    "category": "Skincare",
+    "price": 6.9,
+    "description": "High-strength vitamin and mineral blemish formula. Reduces congestion, balances visible sebum activity.",
+    "specification": [
+      "Key ingredient: Niacinamide 10% + Zinc 1%",
+      "Skin type: All skin types",
+      "Volume: 30ml",
+      "Vegan: Yes",
+      "Cruelty-free: Yes"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "The Ordinary",
+    "reviews_count": 32800
+  },
+  {
+    "product_id": "P016",
+    "product_title": "Lego Technic Bugatti Chiron",
+    "product_image": "https://toybox.com.cy/cdn/shop/files/lego-42083-technic-bugatti-chiron-super-sports-car-exclusive-collectible-model-advanced-building-set-toybox-1.jpg?v=1754813489",
+    "category": "Toys & Hobbies",
+    "price": 349.99,
+    "description": "3599-piece Bugatti Chiron replica. Working 8-speed gearbox, W16 engine, authentic aerodynamics.",
+    "specification": [
+      "Pieces: 3,599",
+      "Age: 16+",
+      "Dimensions: 14x56x25 cm",
+      "Scale: 1:8",
+      "Features: Working gearbox, W16 engine"
+    ],
+    "availability": false,
+    "rating": 4.9,
+    "brand": "LEGO",
+    "reviews_count": 4219
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Casio G-Shock GA-2100",
+    "product_image": "https://images.squarespace-cdn.com/content/v1/64acf73646f8a32fd991f1a6/1696672247739-4S9604SC9VEUCMP90PP8/GA-2100-1A1ER.jpg?format=1500w",
+    "category": "Watches",
+    "price": 99.0,
+    "description": "Carbon core guard structure, shock and water resistant (200m), slim octagonal bezel.",
+    "specification": [
+      "Movement: Quartz",
+      "Water resistance: 200m",
+      "Case material: Carbon core resin",
+      "Battery life: Approx. 3 years",
+      "Display: Analog-digital"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Casio",
+    "reviews_count": 5630
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Yoga Mat Premium 6mm",
+    "product_image": "https://www.gaiam.com/cdn/shop/products/05-64756_6MM-GAIAM-PREMIUM-REVERSIBLE-YOGAMAT-LUNAR-WAVE_C.jpg?v=1654885023",
+    "category": "Sports & Fitness",
+    "price": 34.99,
+    "description": "Non-slip TPE yoga mat with alignment lines. Extra thick 6mm cushioning for joint support.",
+    "specification": [
+      "Material: TPE",
+      "Thickness: 6mm",
+      "Dimensions: 183x61 cm",
+      "Weight: 1.1kg",
+      "Features: Alignment lines, carry strap"
+    ],
+    "availability": true,
+    "rating": 4.4,
+    "brand": "ProFit",
+    "reviews_count": 2087
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Nespresso Vertuo Pop Coffee Maker",
+    "product_image": "https://www.stephanis.com.cy/media/products/1_81DE86042D536.jpg?dimensions=1000x1000",
+    "category": "Kitchen",
+    "price": 119.0,
+    "description": "Centrifusion technology reads barcode on each pod. 5 cup sizes from espresso to alto.",
+    "specification": [
+      "Technology: Centrifusion",
+      "Cup sizes: 5 (40ml–535ml)",
+      "Heat up time: 30 seconds",
+      "Water tank: 560ml",
+      "Pod compatibility: Nespresso Vertuo"
+    ],
+    "availability": true,
+    "rating": 4.5,
+    "brand": "Nespresso",
+    "reviews_count": 3761
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Anker 65W USB-C Charger",
+    "product_image": "https://cdn.shopify.com/s/files/1/0493/9834/9974/products/A2663111-Anker_715_Charger_Nano_II_65W_1600x.png?v=1767756360",
+    "category": "Accessories",
+    "price": 35.99,
+    "description": "GaN technology. Charges MacBook, iPhone, iPad, and Android at full speed from one compact adapter.",
+    "specification": [
+      "Output: 65W total",
+      "Ports: 2x USB-C, 1x USB-A",
+      "Technology: GaN II",
+      "Compatibility: Universal",
+      "Size: 54x54x32mm"
+    ],
+    "availability": true,
+    "rating": 4.7,
+    "brand": "Anker",
+    "reviews_count": 8912
+  }
+]

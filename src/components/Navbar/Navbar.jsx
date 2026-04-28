@@ -10,7 +10,7 @@ const Navbar = ({ handleAddCartData, products, wishlist }) => {
       <Link className="ml-3" to="/statistics">
         Statistics
       </Link>
-      <Link className="ml-3" to="/">
+      <Link className="ml-3" to="/dashboard">
         Dashboard
       </Link>
       <Link className="ml-3" to="/about">

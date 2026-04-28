@@ -1,12 +1,9 @@
-import { useEffect, useState } from "react";
-import { useLoaderData, useNavigate, useParams } from "react-router";
+import { useEffect } from "react";
+import { useLoaderData, useOutletContext, useParams } from "react-router";
+import { ToastContainer } from "react-toastify";
 const ProductDetails = () => {
   const products = useLoaderData();
   let params = useParams();
-  let navigate = useNavigate();
-  if (products.length === 0) {
-    navigate(-1);
-  }
   const filterData = products.filter((e) => e.product_id === params.ProductId);
 
   const {
@@ -18,10 +15,14 @@ const ProductDetails = () => {
     specification,
     rating,
   } = filterData[0];
-  console.log(filterData[0]);
+  useEffect(() => {
+    document.title = "Product Details | Home";
+  }, []);
 
+  const { handleAddToCart, handleAddToWishlist } = useOutletContext();
   return (
     <div>
+      <ToastContainer />
       <div className="bg-[#9538E2]">
         <div className="md:absolute md:pb-80 left-0 right-0">
           <h1 className="text-4xl font-bold text-center pt-8  text-white">
@@ -34,11 +35,13 @@ const ProductDetails = () => {
           </p>
         </div>
         {/* Feature section */}
-        <div className="hero bg-white md:w-[1062px] md:h-[563px] mx-auto rounded-3xl relative top-12 md:top-52">
+        <div className="hero bg-white md:w-[1062px] md:h-[563px] mx-auto rounded-3xl relative top-9 md:top-52">
           <div className="hero-content flex-col lg:flex-row ">
-            <img src={product_image} className="max-w-sm rounded-lg " />
+            <img src={product_image} className="md:max-w-sm rounded-lg " />
             <div className="md:p-4">
-              <h1 className="text-5xl font-bold">{product_title}</h1>
+              <h1 className="text-3xl md:text-5xl font-bold">
+                {product_title}
+              </h1>
               <p className="py-4 font-semibold">Price: €{price}</p>
               <div>
                 <p className="badge badge-soft badge-success m-0">In Stock</p>
@@ -70,7 +73,10 @@ const ProductDetails = () => {
                 </div>{" "}
               </div>
               <div className="flex items-center gap-4">
-                <button className="btn btn-primary bg-[#9538E2] rounded-full">
+                <button
+                  onClick={() => handleAddToCart(filterData[0])}
+                  className="btn btn-primary bg-[#9538E2] rounded-full"
+                >
                   Add To Card{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +93,10 @@ const ProductDetails = () => {
                     />
                   </svg>
                 </button>
-                <button className="border-2 border-dotted rounded-full border-gray-500">
+                <button
+                  onClick={() => handleAddToWishlist(filterData[0])}
+                  className="border-2 border-dotted rounded-full border-gray-500"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"

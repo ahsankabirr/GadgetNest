@@ -8,6 +8,9 @@ import Router from "./components/Router/Router.jsx";
 import Statistics from "./components/Statistics/Statistics.jsx";
 import Header from "./components/Header/Header.jsx";
 import ProductDetails from "./components/ProductDetails/ProductDetails.jsx";
+import Cart from "./components/Cart/Cart.jsx";
+import WaitList from "./components/WaitList/WaitList.jsx";
+import AboutUs from "./components/AboutUs/AboutUs.jsx";
 
 const router = createBrowserRouter([
   {
@@ -21,11 +24,24 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics />,
+        loader: () => fetch("/gadgets.JSON"),
       },
       {
         path: "/ProductDetails/:ProductId",
         element: <ProductDetails />,
-        loader: () => fetch("gadgets.JSON"),
+        loader: () => fetch("/gadgets.JSON"),
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
+      },
+      {
+        path: "/about",
+        element: <AboutUs />,
+      },
+      {
+        path: "/waitlist",
+        element: <WaitList />,
       },
     ],
   },

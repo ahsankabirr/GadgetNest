@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="">
           <img
             className="md:w-[1062px] md:h-[563px] md:bg-white/50 md:border-2 border-white-400 p-5 rounded-3xl relative top-12 md:top-72 "
-            src="../../../public/banner.jpg"
+            src="https://i.ibb.co/gbgXWtdy/banner.jpg"
             alt="banner"
           />
         </div>
